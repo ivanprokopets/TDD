@@ -1,8 +1,13 @@
 public class ArabicToRomanNumberConverter {
     public String Convert (int arabicNumber) {
-        if ( arabicNumber == 0)
-            return "";
-        else
-            return "I";
+        boolean noNumber = arabicNumber == 0;
+        if (noNumber)
+            return getDefaultRomanNumber();
+
+        return "I";
+    }
+
+    private String getDefaultRomanNumber() {
+        return "";
     }
 }
