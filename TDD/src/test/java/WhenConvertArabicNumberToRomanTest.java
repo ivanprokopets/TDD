@@ -23,4 +23,10 @@ public class WhenConvertArabicNumberToRomanTest {
         String romanNumber = convertToRoman(2);
         assertEquals("II", romanNumber);
     }
+
+    @Test
+    public void Convert_3_To_III() {
+        String romanNumber = convertToRoman(3);
+        assertEquals("III", romanNumber);
+    }
 }

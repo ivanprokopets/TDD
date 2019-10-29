@@ -19,8 +19,8 @@
       <file leaf-file-name="WhenConvertArabicNumberToRomanTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WhenConvertArabicNumberToRomanTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +74,8 @@
         <option value="$PROJECT_DIR$/src/test/WhenConvertArabicNumberToRomanTest.java" />
         <option value="$PROJECT_DIR$/src/main/ArabicToRomanNumberConverter.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ArabicToRomanNumberConverter.java" />
         <option value="$PROJECT_DIR$/src/test/java/WhenConvertArabicNumberToRomanTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ArabicToRomanNumberConverter.java" />
       </list>
     </option>
   </component>
@@ -409,12 +409,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_TDD - 2019.10.29 at 17h 01m 57s.xml">
-      <configuration name="All in TDD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_TDD - 2019.10.29 at 17h 07m 51s.xml">
-      <configuration name="All in TDD" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_TDD - 2019.10.29 at 17h 10m 52s.xml">
       <configuration name="All in TDD" configurationId="JUnit" />
     </history-entry>
@@ -428,6 +422,12 @@
       <configuration name="All in TDD" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_TDD - 2019.10.29 at 17h 23m 30s.xml">
+      <configuration name="All in TDD" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_TDD - 2019.10.29 at 17h 27m 28s.xml">
+      <configuration name="All in TDD" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_TDD - 2019.10.29 at 17h 27m 56s.xml">
       <configuration name="All in TDD" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WhenConvertArabicNumberToRomanTest_(1) - 2019.10.29 at 17h 11m 35s.xml">
@@ -531,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WhenConvertArabicNumberToRomanTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
