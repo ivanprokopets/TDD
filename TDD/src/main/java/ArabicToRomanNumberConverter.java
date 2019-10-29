@@ -5,8 +5,9 @@ public class ArabicToRomanNumberConverter {
             return getDefaultRomanNumber();
         if (arabicNumber == 1)
             return "I";
-        else
+        else if (arabicNumber == 2)
             return "II";
+        else return "III";
     }
 
     private String getDefaultRomanNumber() {
