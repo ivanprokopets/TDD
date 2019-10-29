@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WhenConvertArabicNumberToRomanTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WhenConvertArabicNumberToRomanTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WhenConvertArabicNumberToRomanTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="391">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArabicToRomanNumberConverter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArabicToRomanNumberConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ArabicToRomanNumberConverter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -73,8 +73,8 @@
         <option value="$PROJECT_DIR$/src/test/WhenConvertArabicNumberToRomanTest.java" />
         <option value="$PROJECT_DIR$/src/main/ArabicToRomanNumberConverter.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/WhenConvertArabicNumberToRomanTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArabicToRomanNumberConverter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WhenConvertArabicNumberToRomanTest.java" />
       </list>
     </option>
   </component>
@@ -426,6 +426,9 @@
     <history-entry file="All_in_TDD - 2019.10.29 at 17h 16m 05s.xml">
       <configuration name="All in TDD" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_TDD - 2019.10.29 at 17h 17m 46s.xml">
+      <configuration name="All in TDD" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="WhenConvertArabicNumberToRomanTest_(1) - 2019.10.29 at 17h 11m 35s.xml">
       <configuration name="WhenConvertArabicNumberToRomanTest (1)" configurationId="JUnit" />
     </history-entry>
@@ -434,9 +437,6 @@
     </history-entry>
     <history-entry file="WhenConvertArabicNumberToRomanTest_Convert_1_To_I - 2019.10.29 at 17h 11m 30s.xml">
       <configuration name="WhenConvertArabicNumberToRomanTest.Convert_1_To_I" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="main_java_test_in_TDD - 2019.10.29 at 16h 50m 45s.xml">
-      <configuration name="main.java.test in TDD" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -516,22 +516,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WhenConvertArabicNumberToRomanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ArabicToRomanNumberConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding>
             <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WhenConvertArabicNumberToRomanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

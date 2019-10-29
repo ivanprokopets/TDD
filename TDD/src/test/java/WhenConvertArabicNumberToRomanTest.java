@@ -15,4 +15,11 @@ public class WhenConvertArabicNumberToRomanTest {
         String romanNumber = converter.Convert(1);
         assertEquals("I", romanNumber);
     }
+
+    @Test
+    public void Convert_2_To_II() {
+        ArabicToRomanNumberConverter converter = new ArabicToRomanNumberConverter();
+        String romanNumber = converter.Convert(2);
+        assertEquals("II", romanNumber);
+    }
 }
