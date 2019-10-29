@@ -1,5 +1,8 @@
 public class ArabicToRomanNumberConverter {
     public String Convert (int arabicNumber) {
-        return "";
+        if ( arabicNumber == 0)
+            return "";
+        else
+            return "I";
     }
 }

@@ -12,7 +12,7 @@ public class WhenConvertArabicNumberToRomanTest {
     @Test
     public void Convert_1_To_I() {
         ArabicToRomanNumberConverter converter = new ArabicToRomanNumberConverter();
-        String romanNumber = converter.Convert(0);
+        String romanNumber = converter.Convert(1);
         assertEquals("I", romanNumber);
     }
 }
