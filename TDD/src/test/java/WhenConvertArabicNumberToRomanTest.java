@@ -8,4 +8,11 @@ public class WhenConvertArabicNumberToRomanTest {
         String romanNumber = converter.Convert(0);
         assertEquals("", romanNumber);
     }
+
+    @Test
+    public void Convert_1_To_I() {
+        ArabicToRomanNumberConverter converter = new ArabicToRomanNumberConverter();
+        String romanNumber = converter.Convert(0);
+        assertEquals("I", romanNumber);
+    }
 }
