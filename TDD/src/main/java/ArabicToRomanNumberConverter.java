@@ -3,8 +3,10 @@ public class ArabicToRomanNumberConverter {
         boolean noNumber = arabicNumber == 0;
         if (noNumber)
             return getDefaultRomanNumber();
-
-        return "I";
+        if (arabicNumber == 1)
+            return "I";
+        else
+            return "II";
     }
 
     private String getDefaultRomanNumber() {
