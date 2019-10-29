@@ -2,24 +2,25 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class WhenConvertArabicNumberToRomanTest {
+    private String convertToRoman ( int arabicNumber) {
+        ArabicToRomanNumberConverter converter = new ArabicToRomanNumberConverter();
+        return converter.Convert(arabicNumber);
+    }
     @Test
     public void Convert_0_To_EmptyString() {
-        ArabicToRomanNumberConverter converter = new ArabicToRomanNumberConverter();
-        String romanNumber = converter.Convert(0);
+        String romanNumber = convertToRoman(0);
         assertEquals("", romanNumber);
     }
 
     @Test
     public void Convert_1_To_I() {
-        ArabicToRomanNumberConverter converter = new ArabicToRomanNumberConverter();
-        String romanNumber = converter.Convert(1);
+        String romanNumber = convertToRoman(1);
         assertEquals("I", romanNumber);
     }
 
     @Test
     public void Convert_2_To_II() {
-        ArabicToRomanNumberConverter converter = new ArabicToRomanNumberConverter();
-        String romanNumber = converter.Convert(2);
+        String romanNumber = convertToRoman(2);
         assertEquals("II", romanNumber);
     }
 }
