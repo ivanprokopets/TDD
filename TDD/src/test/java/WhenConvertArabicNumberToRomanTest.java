@@ -33,8 +33,8 @@ public class WhenConvertArabicNumberToRomanTest {
     }
 
     @Test
-    public void Convert_4_To_V() {
+    public void Convert_4_To_IV() {
         String romanNumber = convertToRoman(4);
-        assertEquals("IV",romanNumber);
+        assertEquals("IV", romanNumber);
     }
 }

@@ -9,13 +9,16 @@ public class ArabicToRomanNumberConverter {
 
     private String getRepeatingRomanNumber(int arabicNumber) {
         String romanNumber = "";
+
         while (arabicNumber >= 1) {
             romanNumber += "I";
             arabicNumber--;
         }
+        romanNumber = romanNumber.replace("IIII", "IV");
+
         return romanNumber;
     }
-    
+
     private String getDefaultRomanNumber() {
         return "";
     }
