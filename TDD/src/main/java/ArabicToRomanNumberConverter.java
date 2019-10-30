@@ -1,10 +1,11 @@
 public class ArabicToRomanNumberConverter {
     public String Convert(int arabicNumber) {
         boolean noNumber = arabicNumber == 0;
-        if (noNumber)
+        if (noNumber) {
             return getDefaultRomanNumber();
-
-        return getRepeatingRomanNumber(arabicNumber);
+        } else {
+            return getRepeatingRomanNumber(arabicNumber);
+        }
     }
 
     private String getRepeatingRomanNumber(int arabicNumber) {
