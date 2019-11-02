@@ -173,6 +173,12 @@ public class WhenConvertArabicNumberToRomanTest {
     }
 
     @Test
+    public void Convert_41_To_XLI() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(41);
+        assertEquals("XLI", romanNumber);
+    }
+
+    @Test
     public void Convert_50_To_L() {
         String romanNumber = ArabicToRomanNumberConverter.toRoman(50);
         assertEquals("L", romanNumber);
