@@ -69,4 +69,120 @@ public class WhenConvertArabicNumberToRomanTest {
         String romanNumber = ArabicToRomanNumberConverter.toRoman(10);
         assertEquals("X", romanNumber);
     }
+
+    @Test
+    public void Convert_11_To_XI() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(11);
+        assertEquals("XI", romanNumber);
+    }
+
+    @Test
+    public void Convert_12_To_XII() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(12);
+        assertEquals("XII", romanNumber);
+    }
+
+    @Test
+    public void Convert_13_To_XIII() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(13);
+        assertEquals("XIII", romanNumber);
+    }
+
+    @Test
+    public void Convert_14_To_XIV() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(14);
+        assertEquals("XIV", romanNumber);
+    }
+
+    @Test
+    public void Convert_15_To_XV() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(15);
+        assertEquals("XV", romanNumber);
+    }
+
+    @Test
+    public void Convert_16_To_XVI() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(16);
+        assertEquals("XVI", romanNumber);
+    }
+
+    @Test
+    public void Convert_17_To_XVII() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(17);
+        assertEquals("XVII", romanNumber);
+    }
+
+    @Test
+    public void Convert_18_To_XVIII() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(18);
+        assertEquals("XVIII", romanNumber);
+    }
+
+    @Test
+    public void Convert_19_To_XIX() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(19);
+        assertEquals("XIX", romanNumber);
+    }
+
+    @Test
+    public void Convert_20_To_XX() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(20);
+        assertEquals("XX", romanNumber);
+    }
+
+    @Test
+    public void Convert_21_To_XXI() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(21);
+        assertEquals("XXI", romanNumber);
+    }
+
+    @Test
+    public void Convert_22_To_XXII() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(22);
+        assertEquals("XXII", romanNumber);
+    }
+
+    @Test
+    public void Convert_23_To_XXIII() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(23);
+        assertEquals("XXIII", romanNumber);
+    }
+
+    @Test
+    public void Convert_24_To_XXIV() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(24);
+        assertEquals("XXIV", romanNumber);
+    }
+
+    @Test
+    public void Convert_25_To_XXV() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(25);
+        assertEquals("XXV", romanNumber);
+    }
+
+    @Test
+    public void Convert_39_To_XXXIX() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(39);
+        assertEquals("XXXIX", romanNumber);
+    }
+
+    @Test
+    public void Convert_40_To_XL() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(40);
+        assertEquals("XL", romanNumber);
+    }
+
+    @Test
+    public void Convert_50_To_L() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(50);
+        assertEquals("L", romanNumber);
+    }
+
+    @Test
+    public void Convert_51_To_LI() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(51);
+        assertEquals("LI", romanNumber);
+    }
+
+
 }

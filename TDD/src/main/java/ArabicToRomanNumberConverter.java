@@ -2,18 +2,17 @@ public class ArabicToRomanNumberConverter {
 
     public static String toRoman(int arabicNumber) {
         String romanNumber = getRomanNumber(arabicNumber);
-        romanNumber = romanNumber.replace("IIII","IV");
-        romanNumber =replaceInterlacedDigits(romanNumber);
+        romanNumber = romanNumber.replace("IIII", "IV");
+        romanNumber = replaceInterlacedDigits(romanNumber);
         return romanNumber;
     }
 
     private static String replaceInterlacedDigits(String romanNumber) {
-        for ( int i = 2; i < romanNumber.length(); i++) {
-            if (romanNumber.charAt(i-2) == romanNumber.charAt(i) && romanNumber.charAt(i - 1) != romanNumber.charAt(i)) {
+        for (int i = 2; i < romanNumber.length(); i++) {
+            if (romanNumber.charAt(i - 2) == romanNumber.charAt(i) && romanNumber.charAt(i - 1) != romanNumber.charAt(i)) {
                 romanNumber = romanNumber.substring(0, i - 2) +
                         romanNumber.charAt(i - 1) + nextDigit(romanNumber.charAt(i)) +
                         romanNumber.substring(i + 1);
-
             }
         }
         return romanNumber;
@@ -34,7 +33,6 @@ public class ArabicToRomanNumberConverter {
                 arabicNumber -= digit.getArabic();
             }
         }
-        //romanNumber = romanNumber.replace("IIII", "IV");
         return romanNumber.toString();
     }
 }
