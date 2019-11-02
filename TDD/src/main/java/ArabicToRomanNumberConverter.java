@@ -1,26 +1,22 @@
+import java.util.ArrayList;
+
 public class ArabicToRomanNumberConverter {
-    public String Convert(int arabicNumber) {
-        boolean noNumber = arabicNumber == 0;
-        if (noNumber) {
-            return getDefaultRomanNumber();
-        } else {
-            return getRepeatingRomanNumber(arabicNumber);
+
+    public static String toRoman(int arabicNumber) {
+        StringBuilder romanNumber = new StringBuilder();
+
+        ArrayList<PairOfDigitis> digitis = new ArrayList<PairOfDigitis>();
+        digitis.add(new PairOfDigitis(5, 'V'));
+        digitis.add(new PairOfDigitis(1, 'I'));
+
+        for (PairOfDigitis digit : digitis) {
+            while (arabicNumber >= digit.getArabic()) {
+                romanNumber.append(digit.getRoman());
+                arabicNumber -= digit.getArabic();
+            }
         }
-    }
+        //romanNumber = romanNumber.replace("IIII", "IV");
+        return romanNumber.toString();
 
-    private String getRepeatingRomanNumber(int arabicNumber) {
-        String romanNumber = "";
-
-        while (arabicNumber >= 1) {
-            romanNumber += "I";
-            arabicNumber--;
-        }
-        romanNumber = romanNumber.replace("IIII", "IV");
-
-        return romanNumber;
-    }
-
-    private String getDefaultRomanNumber() {
-        return "";
     }
 }
