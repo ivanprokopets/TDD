@@ -4,6 +4,7 @@ public class ArabicToRomanNumberConverter {
         String romanNumber = getRomanNumber(arabicNumber);
         romanNumber = romanNumber.replace("IIII", "IV");
         romanNumber = romanNumber.replace("XXXX", "XL");
+        romanNumber = romanNumber.replace("CCCC", "CD");
         romanNumber = replaceInterlacedDigits(romanNumber);
         return romanNumber;
     }

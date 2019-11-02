@@ -214,4 +214,50 @@ public class WhenConvertArabicNumberToRomanTest {
         assertEquals("CD", romanNumber);
     }
 
+    @Test
+    public void Convert_500_To_D() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(500);
+        assertEquals("D", romanNumber);
+    }
+
+    @Test
+    public void Convert_900_To_CM() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(900);
+        assertEquals("CM", romanNumber);
+    }
+
+    @Test
+    public void Convert_1451_To_MCDLI() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(1451);
+        assertEquals("MCDLI", romanNumber);
+    }
+    @Test
+    public void Convert_208_To_CCVIII() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(208);
+        assertEquals("CCVIII", romanNumber);
+    }
+
+    @Test
+    public void Convert_1995_To_MCMXCV() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(1995);
+        assertEquals("MCMXCV", romanNumber);
+    }
+
+    @Test
+    public void Convert_2000_To_MM() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(2000);
+        assertEquals("MM", romanNumber);
+    }
+
+    @Test
+    public void Convert_2019_To_MMXIX() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(2019);
+        assertEquals("MMXIX", romanNumber);
+    }
+
+    @Test
+    public void Convert_4994_To_MMMMCMXCIV() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(4994);
+        assertEquals("MMMMCMXCIV", romanNumber);
+    }
 }

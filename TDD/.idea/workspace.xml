@@ -19,11 +19,11 @@
       <file leaf-file-name="ArabicToRomanNumberConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ArabicToRomanNumberConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+            <state relative-caret-position="102">
+              <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
               <folding>
-                <element signature="e#929#930#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +57,8 @@
       <file leaf-file-name="WhenConvertArabicNumberToRomanTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WhenConvertArabicNumberToRomanTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="195" column="40" lean-forward="true" selection-start-line="195" selection-start-column="40" selection-end-line="195" selection-end-column="40" />
+            <state relative-caret-position="183">
+              <caret line="245" column="9" lean-forward="true" selection-start-line="245" selection-start-column="9" selection-end-line="245" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +85,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/PairOfDigitis.java" />
         <option value="$PROJECT_DIR$/src/main/java/DigitsMap.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WhenConvertArabicNumberToRomanTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArabicToRomanNumberConverter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WhenConvertArabicNumberToRomanTest.java" />
       </list>
     </option>
   </component>
@@ -301,34 +301,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_TDD - 2019.11.02 at 19h 34m 46s.xml">
+    <history-entry file="All_in_TDD - 2019.11.02 at 19h 47m 59s.xml">
       <configuration name="All in TDD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDD - 2019.11.02 at 19h 35m 33s.xml">
+    <history-entry file="All_in_TDD - 2019.11.02 at 19h 48m 37s.xml">
       <configuration name="All in TDD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDD - 2019.11.02 at 19h 41m 55s.xml">
+    <history-entry file="All_in_TDD - 2019.11.02 at 19h 50m 29s.xml">
       <configuration name="All in TDD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDD - 2019.11.02 at 19h 43m 36s.xml">
+    <history-entry file="All_in_TDD - 2019.11.02 at 19h 51m 06s.xml">
       <configuration name="All in TDD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDD - 2019.11.02 at 19h 44m 35s.xml">
+    <history-entry file="All_in_TDD - 2019.11.02 at 19h 51m 44s.xml">
       <configuration name="All in TDD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDD - 2019.11.02 at 19h 44m 57s.xml">
+    <history-entry file="All_in_TDD - 2019.11.02 at 19h 52m 22s.xml">
       <configuration name="All in TDD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDD - 2019.11.02 at 19h 45m 16s.xml">
+    <history-entry file="All_in_TDD - 2019.11.02 at 19h 52m 52s.xml">
       <configuration name="All in TDD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDD - 2019.11.02 at 19h 45m 40s.xml">
+    <history-entry file="All_in_TDD - 2019.11.02 at 19h 55m 52s.xml">
       <configuration name="All in TDD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDD - 2019.11.02 at 19h 45m 41s.xml">
+    <history-entry file="All_in_TDD - 2019.11.02 at 19h 56m 04s.xml">
       <configuration name="All in TDD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDD - 2019.11.02 at 19h 45m 51s.xml">
+    <history-entry file="All_in_TDD - 2019.11.02 at 19h 56m 13s.xml">
       <configuration name="All in TDD" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -380,14 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DigitsMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PairOfDigitis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -403,19 +395,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ArabicToRomanNumberConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        <state relative-caret-position="102">
+          <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
           <folding>
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DigitsMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WhenConvertArabicNumberToRomanTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="195" column="40" lean-forward="true" selection-start-line="195" selection-start-column="40" selection-end-line="195" selection-end-column="40" />
+        <state relative-caret-position="183">
+          <caret line="245" column="9" lean-forward="true" selection-start-line="245" selection-start-column="9" selection-end-line="245" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
