@@ -28,15 +28,39 @@ public class WhenConvertArabicNumberToRomanTest {
     }
 
 
-//    @Test
-//    public void Convert_4_To_IV() {
-//        String romanNumber = ArabicToRomanNumberConverter.toRoman(4);
-//        assertEquals("IV", romanNumber);
-//    }
+    @Test
+    public void Convert_4_To_IV() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(4);
+        assertEquals("IV", romanNumber);
+    }
 
     @Test
     public void Convert_5_To_V() {
         String romanNumber = ArabicToRomanNumberConverter.toRoman(5);
         assertEquals("V", romanNumber);
+    }
+
+    @Test
+    public void Convert_6_To_VI() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(6);
+        assertEquals("VI", romanNumber);
+    }
+
+    @Test
+    public void Convert_7_To_VII() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(7);
+        assertEquals("VII", romanNumber);
+    }
+
+    @Test
+    public void Convert_8_To_VIII() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(8);
+        assertEquals("VIII", romanNumber);
+    }
+
+    @Test
+    public void Convert_9_To_IX() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(8);
+        assertEquals("IX", romanNumber);
     }
 }

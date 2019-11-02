@@ -3,6 +3,11 @@ import java.util.ArrayList;
 public class ArabicToRomanNumberConverter {
 
     public static String toRoman(int arabicNumber) {
+        String romanNumber = getRomanNumber(arabicNumber);
+        romanNumber = romanNumber.replace("IIII","IV");
+        return romanNumber;
+    }
+    private static String getRomanNumber(int arabicNumber) {
         StringBuilder romanNumber = new StringBuilder();
 
         ArrayList<PairOfDigitis> digitis = new ArrayList<PairOfDigitis>();
@@ -17,6 +22,5 @@ public class ArabicToRomanNumberConverter {
         }
         //romanNumber = romanNumber.replace("IIII", "IV");
         return romanNumber.toString();
-
     }
 }
