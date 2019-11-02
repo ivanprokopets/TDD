@@ -231,6 +231,7 @@ public class WhenConvertArabicNumberToRomanTest {
         String romanNumber = ArabicToRomanNumberConverter.toRoman(1451);
         assertEquals("MCDLI", romanNumber);
     }
+
     @Test
     public void Convert_208_To_CCVIII() {
         String romanNumber = ArabicToRomanNumberConverter.toRoman(208);
@@ -259,5 +260,11 @@ public class WhenConvertArabicNumberToRomanTest {
     public void Convert_4994_To_MMMMCMXCIV() {
         String romanNumber = ArabicToRomanNumberConverter.toRoman(4994);
         assertEquals("MMMMCMXCIV", romanNumber);
+    }
+
+    @Test
+    public void Convert_1958_To_MCMLVIII() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(1958);
+        assertEquals("MCMLVIII", romanNumber);
     }
 }
