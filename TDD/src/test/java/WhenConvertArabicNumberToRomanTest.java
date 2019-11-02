@@ -190,5 +190,28 @@ public class WhenConvertArabicNumberToRomanTest {
         assertEquals("LI", romanNumber);
     }
 
+    @Test
+    public void Convert_60_To_LX() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(60);
+        assertEquals("LX", romanNumber);
+    }
+
+    @Test
+    public void Convert_90_To_XC() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(90);
+        assertEquals("XC", romanNumber);
+    }
+
+    @Test
+    public void Convert_100_To_C() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(100);
+        assertEquals("C", romanNumber);
+    }
+
+    @Test
+    public void Convert_400_To_CD() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(400);
+        assertEquals("CD", romanNumber);
+    }
 
 }
