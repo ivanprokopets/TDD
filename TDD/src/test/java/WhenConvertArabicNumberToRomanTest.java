@@ -60,7 +60,13 @@ public class WhenConvertArabicNumberToRomanTest {
 
     @Test
     public void Convert_9_To_IX() {
-        String romanNumber = ArabicToRomanNumberConverter.toRoman(8);
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(9);
         assertEquals("IX", romanNumber);
+    }
+
+    @Test
+    public void Convert_10_To_X() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(10);
+        assertEquals("X", romanNumber);
     }
 }
