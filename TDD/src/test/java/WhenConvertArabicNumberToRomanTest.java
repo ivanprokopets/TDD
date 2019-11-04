@@ -267,4 +267,10 @@ public class WhenConvertArabicNumberToRomanTest {
         String romanNumber = ArabicToRomanNumberConverter.toRoman(1958);
         assertEquals("MCMLVIII", romanNumber);
     }
+
+    @Test
+    public void Convert_555_To_DLV() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(555);
+        assertEquals("DLV", romanNumber);
+    }
 }
