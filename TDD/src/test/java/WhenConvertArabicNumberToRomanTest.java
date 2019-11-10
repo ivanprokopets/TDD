@@ -273,4 +273,10 @@ public class WhenConvertArabicNumberToRomanTest {
         String romanNumber = ArabicToRomanNumberConverter.toRoman(555);
         assertEquals("DLV", romanNumber);
     }
+
+    @Test
+    public void Convert_560_To_DLX() {
+        String romanNumber = ArabicToRomanNumberConverter.toRoman(560);
+        assertEquals("DLX", romanNumber);
+    }
 }
